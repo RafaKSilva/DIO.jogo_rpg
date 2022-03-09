@@ -8,11 +8,16 @@ namespace DIO.jogo_rpg
         static void Main(string[] args)
         {
             Hero hero = new Hero("Arus", 2, "Knight");
-            Hero wizard =  new Hero("Jennice",23,"White Wizard");
+            Wizard wizard = new Wizard("Jennice",23,"White Wizard");
 
             Console.WriteLine($"Nome: {hero.Name}");
             Console.WriteLine($"Level: {hero.Level}");
             Console.WriteLine($"Type: {hero.HeroType}");
+
+            Console.WriteLine(wizard);
+
+            Console.WriteLine(hero.Attack());
+            Console.WriteLine(wizard.Attack());
         }
     }
 }

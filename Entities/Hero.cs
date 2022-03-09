@@ -18,9 +18,9 @@ namespace DIO.jogo_rpg.Entities
             return $"Name: {this.Name}\nLevel: {this.Level}\nType: {this.HeroType}";
         }
 
-        public string Attack()
+        public virtual string Attack()
         {
-            return $"{this.Name} atacou com uma espada";
+            return $"{this.Name} atacou com a sua espada";
         }
     }
 }
