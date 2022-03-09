@@ -7,7 +7,7 @@ Projeto para exercitar os conceitos de POO.
 * Encapsulamento
 * Polimorfismo
 
-# Como execurtar?
+# Como executar?
 
 * Clone o repositório para seu computador local.
 * Em pompt de comando(bash/cmd/powershell) abra o caminho para onde foi clonado o repositório.
