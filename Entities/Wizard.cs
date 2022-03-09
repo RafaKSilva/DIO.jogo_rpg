@@ -11,5 +11,10 @@ namespace DIO.jogo_rpg.Entities
         {
             return $"{this.Name} lançou magia.";
         }
+
+        public string Attack(int bonus)
+        {
+            return  $"{this.Name} lançou magia com bonus de ataque de {bonus}.";
+        }
     }
 }

@@ -18,6 +18,7 @@ namespace DIO.jogo_rpg
 
             Console.WriteLine(hero.Attack());
             Console.WriteLine(wizard.Attack());
+             Console.WriteLine(wizard.Attack(20));
         }
     }
 }
