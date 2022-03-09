@@ -7,7 +7,7 @@ namespace DIO.jogo_rpg
     {
         static void Main(string[] args)
         {
-            Hero hero = new Hero("Arus", 2, "Knight");
+            Knight hero = new Knight("Arus", 2, "Knight");
             Wizard wizard = new Wizard("Jennice",23,"White Wizard");
 
             Console.WriteLine($"Nome: {hero.Name}");

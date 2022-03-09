@@ -9,9 +9,9 @@ namespace DIO.jogo_rpg.Entities
             this.HeroType = HeroType;
         }
 
-        public string Name { get; set; }
-        public int Level { get; set; } 
-        public string HeroType { get; set; }
+        public string Name { get; private set; }
+        public int Level { get; private set; } 
+        public string HeroType { get; private set; }
 
         public override string ToString() 
         {
