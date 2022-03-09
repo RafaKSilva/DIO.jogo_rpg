@@ -1,8 +1,8 @@
 namespace DIO.jogo_rpg.Entities
 {
-    public class Arus
+    public class Hero
     {
-        public Arus(string Name, int Level, string HeroType)
+        public Hero(string Name, int Level, string HeroType)
         {
             this.Name = Name;
             this.Level = Level;
@@ -16,6 +16,11 @@ namespace DIO.jogo_rpg.Entities
         public override string ToString() 
         {
             return $"Name: {this.Name}\nLevel: {this.Level}\nType: {this.HeroType}";
+        }
+
+        public string Attack()
+        {
+            return $"{this.Name} atacou com uma espada";
         }
     }
 }
