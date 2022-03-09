@@ -1,6 +1,6 @@
 # Projeto Jogo RPG 
 
-Projeto para exercitar dos conceitos de POO.
+Projeto para exercitar os conceitos de POO.
 
 * Abstração
 * Herança 
